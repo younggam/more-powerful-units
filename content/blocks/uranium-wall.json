@@ -1,0 +1,10 @@
+name: Uranium Wall
+description: A wall made of Uranium.
+type: wall
+health: 1150
+size: 1
+requirements:[
+  uranium-238/6
+]
+category: defense
+research: thorium-wall

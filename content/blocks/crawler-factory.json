@@ -1,0 +1,10 @@
+unitType: crawler-mighty
+produceTime: 450
+consumes:{
+  power: 2.5
+  items:{
+    items:[
+      compact-reactor/1
+    ]
+  }
+}

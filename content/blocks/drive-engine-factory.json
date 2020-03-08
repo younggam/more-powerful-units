@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Drive Engine Factory
+description: Assembles components for unit production
+size: 4
+health: 720
+hasPower: true
+itemCapacity:20
+hasItems: true
+craftTime: 60
+craftEffect: formsmoke
+consumes:{
+  power: 4
+  items: {
+    items: [
+      plastanium/3
+      uranium-238/2
+      metaglass/3
+    ]
+  }
+}
+requirements:[
+  silicon/300
+  graphite/200
+  plastanium/100
+  titanium/100
+  copper/200
+  lead/300
+]
+category: crafting
+research: armor-smelter
+idleSound: respawning
+idleSoundVolume: 0.6
+outputItem: drive-engine/1

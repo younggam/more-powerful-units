@@ -1,0 +1,36 @@
+{
+  "type": "FlyingUnit"
+  "name": "Ghoul Bomber"
+  "description": "A heavy carpet bomber."
+  "maxVelocity": 1.4
+  "speed": 0.2
+  "drag": 0.01
+  "mass": 3
+  "targetAir":false
+  "health": 1320
+  "engineOffset": 7.8
+  "range": 140
+  "flying": true
+  "weapon":{
+    "length":0
+    "reload":12
+    "width":2
+    "alternate":true
+    "velocityRnd":1
+    "inaccuracy":40
+    "ignoreRotation":true
+    "ejectEffect": "none"
+    "shootSound":"none"
+    "bullet":{
+      "type":"BombBulletType"
+      "hitEffect":"flakExplosion"
+      "bulletWidth":9
+      "bulletHeight":13
+      "shootEffect":"none"
+      "smokeEffect":"none"
+      "splashDamage":80
+      "splashDamageRadius":20
+      "bulletSprite":"shell"
+      }
+  }
+}

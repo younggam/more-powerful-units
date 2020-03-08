@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Monazite Intermediate Processing Machine
+description: Separate the sand and make Monazite easier to process.
+liquidCapacity: 60
+health:360
+outputLiquid:{
+  liquid: molten-monazite
+  amount: 18
+}
+outputItem: sand/1
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 36
+updateEffect: smeltsmoke
+consumes:{
+  power: 3.5
+  items:{
+    items:[
+      monazite/3
+    ]
+  }
+}
+requirements: [
+  copper/200
+  titanium/200
+  metaglass/100
+  plastanium/50
+]
+category: crafting
+research: plastanium-compressor
+idleSoundVolume: 0.5
+idleSound: respawning

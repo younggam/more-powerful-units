@@ -1,0 +1,11 @@
+unitType: titan-mighty
+produceTime: 1575
+consumes:{
+  power: 3
+  items:{
+    items:[
+      compact-reactor/1
+      depleted-uranium-armor/3
+    ]
+  }
+}

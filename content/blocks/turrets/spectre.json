@@ -1,0 +1,19 @@
+ammo:{
+  graphite: standardDenseBig
+  pyratite: standardIncendiaryBig
+  thorium: standardThoriumBig
+  depleted-uranium-bullet:{
+    bulletWidth: 16
+    bulletHeight: 23
+    shootEffect: shootBig
+    speed: 8
+    damage: 110
+    lifetime: 40
+    bulletShrink: 0.5
+    bulletSprite: bullet
+    backColor: "f9c87a"
+    frontColor: "ffeec9"
+    ammoMultiplier:5
+    inaccuracy: -1
+  }
+}

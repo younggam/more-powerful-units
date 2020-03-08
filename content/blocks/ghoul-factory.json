@@ -1,0 +1,11 @@
+unitType: ghoul-mighty
+produceTime: 1725
+consumes:{
+  power: 6
+  items:{
+    items:[
+      compact-reactor/1
+      depleted-uranium-armor/3
+    ]
+  }
+}

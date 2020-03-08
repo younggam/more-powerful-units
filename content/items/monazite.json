@@ -1,0 +1,5 @@
+type: resource
+name: Monazite
+description: A major source of thorium.
+hardness: 4
+color:"#9f4413"

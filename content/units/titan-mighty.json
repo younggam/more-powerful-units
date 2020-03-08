@@ -1,0 +1,37 @@
+type: GroundUnit
+description: An advanced, armored ground unit. Attacks both ground and air targets. Equipped with two miniature Scorch-class flamethrowers.
+health: 2300
+name: Titan
+maxVelocity: 0.8
+speed: 0.22
+drag: 0.4
+hitsize: 9
+rotatespeed:0.1
+mass: 3.5
+range: 10
+immunities: {
+  "StatusEffects":"burning"
+}
+weapon:{
+  name: flamethrower
+  shootSound: flame
+  length:1
+  reload:14
+  alternate:true
+  recoil:1
+  ejectEffect: none
+  bullet:{
+    hitSize:7
+    pierce:true
+    drag:0.05
+    statusDuration: 240
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    status: burning
+    lifetime:28
+    shootEffect: shootSmallFlame
+    speed:3
+    damage:48
+
+  }
+}

@@ -1,0 +1,57 @@
+type: ItemTurret
+name: Electromagnetic Cannon
+description: Use electromagnetic force to fire powerful bullets.
+requirements:[
+  copper/400
+  plastanium/150
+  graphite/250
+  silicon/300
+  lead/400
+  uranium-238/60
+  thorium/90
+]
+size: 3
+range: 320
+reload: 120
+recoil: 6
+smokeEffect: lightningShoot
+shootEffect: lancerLaserShoot
+shootSound: shootSnap
+
+rotatespeed: 2
+inaccuracy:0
+shots: 1
+health: 3500
+maxAmmo: 20
+category: turret
+research: spectre
+ammo:{
+  titanium:{
+    speed: 12
+    damage: 520
+    bulletWidth: 6
+    bulletHeight: 24
+    ammoMultiplier:1
+    bulletSprite: bullet
+    bulletShrink:0.5
+    lifetime: 40
+    reloadMultiplier: 1.5
+    pierce:false
+    knockback:3
+
+  }
+  depleted-uranium-bullet:{
+    pierce: true
+    speed:15
+    damage: 1296
+    bulletWidth:9
+    bulletHeight:36
+    ammoMultiplier: 5
+    bulletSprite: bullet
+    bulletShrink: 0.5
+    lifetime: 30
+    knockback: 2.4
+    hitEffect: hitBulletBig
+  }
+
+}

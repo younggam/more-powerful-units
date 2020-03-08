@@ -1,0 +1,7 @@
+name: Molten Monazite
+description: Molten minerals at low temperatures.
+temperature: 0.8
+viscosity: 0.3
+effect: melting
+barColor: "#E57C16"
+color: "#E57C16"

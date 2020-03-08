@@ -1,0 +1,28 @@
+{
+  "type": "GroundUnit"
+  "name": "Dagger"
+  "description": "A basic ground unit. Useful in swarms."
+  "maxVelocity": 1.1
+  "speed": 0.2
+  "drag": 0.4
+  "hitsize": 8
+  "mass": 1.75
+  "health": 780
+  "weapon":{
+    "name": "chain-blaster"
+    "length":1.5
+    "reload":28
+    "alternate":true
+    "ejectEffect": "shellEjectSmall"
+    "bullet":{
+      "type":"BasicBulletType"
+      "speed":2.5
+      "bulletWidth":7
+      "bulletHeight":9
+      "lifetime":60
+      "shootEffect":"shootSmall"
+      "smokeEffect":"shootSmallSmoke"
+      "damage":72
+      }
+  }
+}

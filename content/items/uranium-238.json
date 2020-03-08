@@ -1,0 +1,6 @@
+type: material
+name: Uranium-238
+description: A radiation element. It's dense, so it's used as a material for armor and bullets.
+radioactivity: 0.4
+cost:1.3
+color: "#CCE745"

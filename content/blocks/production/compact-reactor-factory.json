@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Compact Reactor Factory
+description: Produces semi-permanent Compact Reactor.
+size: 4
+hasPower: true
+health: 720
+hasItems: true
+itemCapacity:20
+craftTime: 60
+craftEffect: formsmoke
+consumes:{
+  power: 7
+  items: {
+    items: [
+      lead/4
+      silicon/3
+      thorium/3
+    ]
+  }
+}
+requirements:[
+  silicon/200
+  uranium-238/50
+  thorium/150
+  plastanium/100
+  titanium/100
+  copper/200
+  lead/100
+]
+category: crafting
+research: armor-smelter
+idleSound: respawning
+idleSoundVolume: 0.8
+outputItem: compact-reactor/1

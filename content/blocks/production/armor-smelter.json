@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Armor Smelter
+description: Use titanium and uranium to make armor.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 80
+craftEffect: smeltsmoke
+consumes:{
+  power: 6
+  items: {
+    items:[
+      plastanium/3
+      uranium-238/2
+    ]
+  }
+}
+requirements:[
+  thorium/200
+  uranium-238/200
+  silicon/300
+  plastanium/200
+]
+category: crafting
+research: alloy-smelter
+idleSoundVolume: 0.5
+outputItem: depleted-uranium-armor/1

@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Gunpowder Mixer
+description: Manufacture Pyratite to make Gunpowder
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 80
+updateEffect: pulverize
+consumes:{
+  power: 1
+  items: {
+    items:[
+      pyratite/2
+      coal/3
+    ]
+  }
+}
+requirements:[
+  copper/100
+  lead/80
+  graphite/40
+  silicon/120
+]
+category: crafting
+research: pyratite-mixer
+idleSoundVolume: 0.5
+outputItem: gunpowder/2

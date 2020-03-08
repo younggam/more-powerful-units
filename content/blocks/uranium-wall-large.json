@@ -1,0 +1,10 @@
+name: Large Uranium Wall
+description: The strongest defensive wall.
+type: wall
+health: 4600
+size: 2
+requirements:[
+  uranium-238/24
+]
+category: defense
+research: uranium-wall

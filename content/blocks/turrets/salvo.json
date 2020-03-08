@@ -1,0 +1,21 @@
+ammo:{
+  copper: standardCopper
+  graphite: standardDense
+  pyratite: standardIncendiary
+  silicon: standardHoming
+  thorium: standardThorium
+  depleted-uranium-bullet:{
+    bulletWidth: 10
+    bulletHeight: 13
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    lifetime: 40
+    speed: 6
+    damage: 51
+    bulletShrink: 0.5
+    bulletSprite: bullet
+    backColor: "f9c87a"
+    frontColor: "ffeec9"
+  }
+}

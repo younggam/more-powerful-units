@@ -1,0 +1,6 @@
+type: resource
+name: Compact Reactor
+description: A semi-permanent source of power for the unit.
+explosiveness: 0.8
+radioactivity: 0.8
+color:"#708217"

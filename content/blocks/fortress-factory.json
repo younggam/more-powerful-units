@@ -1,0 +1,18 @@
+unitType: fortress-mighty
+produceTime: 3000
+requirements:[
+  thorium/40
+  lead/110
+  silicon/75
+  surge-alloy/100
+]
+consumes:{
+  power: 7
+  items:{
+    items:[
+      compact-reactor/1
+      drive-engine/1
+      depleted-uranium-armor/3
+    ]
+  }
+}

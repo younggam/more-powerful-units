@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Bullet Mill
+description: Use gunpowder and uranium to make bullets.
+size: 3
+hasPower: true
+itemCapacity: 25
+hasItems: true
+craftTime: 60
+updateEffect: pulverize
+consumes:{
+  power: 1
+  items: {
+    items:[
+      gunpowder/2
+      uranium-238/1
+    ]
+  }
+}
+requirements:[
+  copper/100
+  titanium/80
+  plastanium/40
+  silicon/40
+]
+category: crafting
+research: pyratite-mixer
+idleSoundVolume: 0.5
+outputItem: depleted-uranium-bullet/1

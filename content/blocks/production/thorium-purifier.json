@@ -1,0 +1,32 @@
+type:Separator
+name: Thorium Purifier
+description: Purifies monazite and produces thorium and by-products.
+size:3
+hasPower: true
+hasItems: true
+craftTime: 12
+itemCapacity: 24
+liquidCapacity: 60
+consumes:{
+  power:5
+  liquid:{
+    liquid: molten-monazite
+    amount: 0.5
+  }
+}
+requirements:[
+  copper/200
+  lead/200
+  titanium/200
+  silicon/100
+  metaglass/50
+  plastanium/50
+]
+category:crafting
+research: separator
+idleSoundVolume: 0.5
+results:[
+  thorium/5
+  uranium-238/1
+  silicon/1
+]

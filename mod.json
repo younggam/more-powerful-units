@@ -1,0 +1,6 @@
+name: more-powerful-units
+displayName: "[red]m[orange]o[yellow]r[green]e-[#01DF74]p[#00FFFF]o[blue]w[#4B088A]e[gray]r[red]f[orange]u[yellow]l[green]-[#01DF74]u[#00FFFF]n[blue]i[#4B088A]t[gray]s"
+author: younggam
+description: "[orange]It is more difficult to produce a unit, but its performance is much better\n[gray]patch 1.3\n-reduce health of titan,fortress and revenant and increase damage of electromagnetic cannon\npatch 1.4\n-add laser interceptor for anti air"
+version: 1.5
+minGameVersion: 104

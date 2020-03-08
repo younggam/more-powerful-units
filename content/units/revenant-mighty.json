@@ -1,0 +1,55 @@
+{
+  "type": "HoverUnit"
+  "name": "Revenant"
+  "description": "A heavy, hovering missile array."
+  "maxVelocity": 1
+  "speed": 0.1
+  "drag": 0.01
+  "mass": 5
+  "hitsize":20
+  "health": 5000
+  "engineOffset": 12
+  "range": 80
+  "shootCone":40
+  "flying": true
+  "rotateWeapon":true
+  "engineSize":3
+  "rotatespeed":0.01
+  "attackLength":90
+  "baseRotateSpeed":0.06
+  "weapon":{
+    "name": "revenant-missiles"
+    "length":3
+    "reload":70
+    "width":10
+    "shots":2
+    "alternate":true
+    "velocityRnd":0.2
+    "inaccuracy":2
+    "ejectEffect": "none"
+    "spacing": 1
+    "shootSound":"missile"
+    "bullet":{
+      "type":"MissileBulletType"
+      "bulletWidth":8
+      "bulletHeight":8
+      "bulletShrink":0
+      "drag":-0.003
+      "homingRange":60
+      "keepVelocity":false
+      "splashDamageRadius":25
+      "splashDamage":80
+      "lifetime":60
+      "trailColor":"d06b53"
+      "backColor":"d06b53"
+      "frontColor":"ffa665"
+      "hitEffect":"blastExplosion"
+      "despawnEffect":"blastExplosion"
+      "weaveScale":6
+      "weaveMag":1
+      "bulletSprite":"missile"
+      "speed":2.7
+      "damage":96
+      }
+  }
+}

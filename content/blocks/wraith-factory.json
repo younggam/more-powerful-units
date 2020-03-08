@@ -1,0 +1,11 @@
+unitType: wraith-mighty
+produceTime: 1050
+consumes:{
+  power: 2.5
+  items:{
+    items:[
+      compact-reactor/1
+      titanium/10
+    ]
+  }
+}

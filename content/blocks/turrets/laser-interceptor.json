@@ -1,0 +1,22 @@
+name: Laser Interceptor
+description: Use sophiscated laser to show powerful anti-air ability.
+health: 2400
+size: 2
+range: 240
+targetGround:false
+
+shootEffect: shootBigSmoke2
+recoil: 3
+shootShake: 1
+reload: 1
+powerUse: 4
+shootSound: missile
+category: turret
+research: lancer
+requirements:[
+  copper/150
+  graphite/150
+  silicon/100
+  lead/150
+  metaglass/150
+]

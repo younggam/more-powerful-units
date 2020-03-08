@@ -1,0 +1,11 @@
+unitType: dagger-mighty
+produceTime: 1275
+consumes:{
+  power: 2.5
+  items:{
+    items:[
+      compact-reactor/1
+      drive-engine/1
+    ]
+  }
+}

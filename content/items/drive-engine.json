@@ -1,0 +1,4 @@
+type: resource
+name: Drive Engine
+description: A driving part of the unit.
+color:"#FFFFFF"

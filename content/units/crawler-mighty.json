@@ -1,0 +1,29 @@
+{
+  "type": "GroundUnit"
+  "name": "Crawler"
+  "description": "A ground unit consisting of a stripped-down frame with high explosives strapped on top. Not particular durable. Explodes on contact with enemies."
+  "maxVelocity": 1.27
+  "speed": 0.285
+  "drag": 0.4
+  "hitsize": 8
+  "mass": 1.75
+  "health": 720
+  "weapon":{
+    "reload":12
+    "ejectEffect": "none"
+    "shootSound": "explosion"
+
+    "bullet":{
+      "type": "BombBulletType"
+      "hitEffect":"pulverize"
+      "lifetime": 30
+      "speed": 1.1
+      "hitEffect":"pulverize"
+      "splashDamageRadius": 55
+      "instantDisappear": true
+      "splashDamage": 240
+      "killShooter": true
+
+      }
+  }
+}

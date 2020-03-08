@@ -1,0 +1,23 @@
+ammo:{
+  metaglass: flakGlass
+  blast-compound: flakExplosive
+  plastanium: flakPlastic
+  surge-alloy: flakSurge
+  depleted-uranium-bullet:{
+    speed: 6
+    damage: 25
+    bulletSprite: shell
+    splashDamage: 24
+    splashDamageRadius: 16
+    hitEffect: flakExplosion
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootBig
+    backColor: "f9c87a"
+    frontColor: "ffeec9"
+    bulletShrink:0.5
+    lifetime: 27
+    ammoMultiplier: 5
+    inaccuracy: -8
+  }
+}

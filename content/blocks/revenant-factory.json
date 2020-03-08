@@ -1,0 +1,19 @@
+unitType: revenant-mighty
+produceTime: 3000
+requirements:[
+  surge-alloy/125
+  plastanium/50
+  titanium/150
+  silicon/200
+]
+consumes:{
+  power: 15
+  items:{
+    items:[
+      compact-reactor/1
+      drive-engine/1
+      depleted-uranium-armor/3
+      silicon/40
+    ]
+  }
+}

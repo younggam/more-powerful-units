@@ -1,0 +1,40 @@
+{
+  "type": "GroundUnit"
+  "name": "Fortress"
+  "description": "A heavy artillery ground unit."
+  "maxVelocity": 0.78
+  "speed": 0.15
+  "drag": 0.4
+  "hitsize": 10
+  "mass": 5
+  "rotatespeed":0.06
+  "targetAir":false
+  "health": 3750
+  "weapon":{
+    "name": "artillery"
+    "length":1
+    "reload":60
+    "width":10
+    "alternate":true
+    "recoil":4
+    "shake":2
+    "ejectEffect": "shellEjectMedium"
+    "shootSound":"artillery"
+    "bullet":{
+      "type":"ArtilleryBulletType"
+      "hitEffect":"blastExplosion"
+      "knockback":0.8
+      "bulletWidth":14
+      "bulletHeight":14
+      "lifetime":90
+      "collides":true
+      "collidesTiles":true
+      "speed":2
+      "splashDamage":304
+      "splashDamageRadius":20
+      "bulletSprite":"shell"
+      "backColor":"ffeec9"
+      "frontColor":"f9c87a"
+      }
+  }
+}
