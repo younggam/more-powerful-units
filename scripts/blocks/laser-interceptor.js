@@ -1,6 +1,8 @@
 const interceptor=new PowerTurret("laser-interceptor");
 
 
+interceptor.localizedName=Core.bundle.get("block.more-powerful-units-laser-interceptor.name")")
+
 
 var tmpColor = new Color();
 var colors = [Color.valueOf("ec745855"), Color.valueOf("ec7458aa"), Color.valueOf("ff9c5a"), Color.white];
